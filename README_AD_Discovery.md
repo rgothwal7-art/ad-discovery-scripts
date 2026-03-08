@@ -19,6 +19,13 @@ Exports results to:
 
 C:\ADDiscovery\ALLDiscovery.csv
 
+# DuplicateAccountsDetection.ps1
+Detects duplicate user accounts based on:
+- DisplayName
+- Email
+- EmployeeID
+- UserPrincipalName
+
 ## Requirements
 - ActiveDirectory PowerShell module
 - GroupPolicy module

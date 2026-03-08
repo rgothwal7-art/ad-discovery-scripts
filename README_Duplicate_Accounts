@@ -1,0 +1,24 @@
+## Scripts Included
+
+### AD-Discovery.ps1
+Collects Active Directory environment information including:
+- Domain information
+- Trust relationships
+- Domain controllers
+- Users
+- Service accounts
+- Privileged accounts
+- GPOs
+- Security groups
+- OUs
+
+### DuplicateAccountsDetection.ps1
+Detects duplicate user accounts based on:
+- DisplayName
+- Email
+- EmployeeID
+- UserPrincipalName
+
+Exports results to:
+
+C:\ADDiscovery\DuplicateAccounts.csv
